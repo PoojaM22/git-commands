@@ -1,6 +1,9 @@
 #!/bin/bash
 
-name="pooja"
-echo "hello $name "
+echo "list al files"
 
+for file in *; do
+	echo $file
+
+done
 
